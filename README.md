@@ -16,6 +16,12 @@ Nimbuzz Lets You- Meet, Share and Connect. It’s mobile freedom to communicate!
 
 Source: http://www.nimbuzz.com/en/
 
+###Developer Comments 
+**Version 1.0** *— January 30, 2014 — 28 KB* <br>
+This release only support the instant message with the xmpp protocol.<br>
+Soon the another features.<br>
+Please check the account window to accept the auto-certification from Nimbuzz.
+
 ###Donate Bitcoin:
       
       13r3PLwzKezKAugEBhgvjQznUo3PXQedqj
@@ -40,12 +46,6 @@ Instantbird Protocol for Nimbuzz is free software: you can redistribute it and/o
 Instantbird Protocol for Nimbuzz is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License along with Instantbird Protocol for Nimbuzz. If not, see http://www.gnu.org/licenses/. 
-
-###Developer Comments 
-**Version 1.0**<br>
-This release only support the instant message with the xmpp protocol.<br>
-Soon the another features.<br>
-Please check the account window to accept the auto-certification from Nimbuzz.
 
 ###End-User License Agreement 
 © Nimbuzz B.V.
