@@ -52,7 +52,7 @@ NimbuzzAccount.prototype = {
   connect: function() {
     this._jid = this._parseJID(this.name.replace("@","\\40") + "@nimbuzz.com/instantbird");
     this._connection = new XMPPSession("openfire.nimbuzz.com", 5222,
-                                       "none", this._jid,
+                                       "allow_unencrypted_plain_auth", this._jid,
                                        this.imAccount.password, this);
   }
 };
