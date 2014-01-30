@@ -19,7 +19,7 @@ Source: http://www.nimbuzz.com/en/
 ###Developer Comments 
 **Version 1.0** *— January 30, 2014 — 28 KB* <br>
 This release only support the instant message with the xmpp protocol.<br>
-Soon the another features.<br>
+Soon the another features. For more information see: http://developer.nimbuzz.com/<br>
 Please check the account window to accept the auto-certification from Nimbuzz.
 
 ###Donate Bitcoin:
