@@ -56,3 +56,7 @@ http://www.nimbuzz.com/en/legal/terms-use/
 © Nimbuzz B.V.
 More information here:
 http://www.nimbuzz.com/en/legal/privacy-statement/
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/alexsalas/instantbird-protocol-nimbuzz/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
