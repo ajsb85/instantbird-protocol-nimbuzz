@@ -67,7 +67,7 @@ NimbuzzProtocol.prototype = {
   get name() "Nimbuzz",
   get iconBaseURI() "chrome://prpl-nimbuzz/skin/",
   getAccount: function(aImAccount) new NimbuzzAccount(this, aImAccount),
-  classID: Components.ID("{3a764d60-6854-11e3-949a-0800200c9a66}")
+  classID: Components.ID("{9e6365d0-a957-11e3-a5e2-0800200c9a66}")
 };
 
 const NSGetFactory = XPCOMUtils.generateNSGetFactory([NimbuzzProtocol]);
