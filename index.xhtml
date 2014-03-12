@@ -146,13 +146,21 @@
     <script src="js/grayscale.js"></script>
     <script>
 	<![CDATA[
-						$.ajax({
-					  type: "GET",
-					  url: "http://gravatar.com/4a14258e09d19be8002d418c9a633baa.json"
-					 }).done(function(response) {
+
+var jqxhr = $.getJSON( "http://gravatar.com/4a14258e09d19be8002d418c9a633baa.json", function() {
+console.log( "success" );
+})
+.done(function(response) {
 					   console.log(response); // if you're into that sorta thing
 					   console.log(response.entry[0].displayName);
-					 });
+					 })
+.fail(function() {
+console.log( "error" );
+})
+.always(function() {
+console.log( "complete" );
+});
+
 		]]>
     </script>
 
