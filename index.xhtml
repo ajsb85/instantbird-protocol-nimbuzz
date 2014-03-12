@@ -15,12 +15,22 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
+	  <head>
+		<meta charset='utf-8'/>
+		<meta http-equiv="X-UA-Compatible" content="chrome=1"/>
+		<meta name="viewport" content="width=640" />
+
+		<link rel="stylesheet" href="stylesheets/core.css" media="screen"/>
+		<link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
+		<link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
+	  </head>
   <body>
     <textarea id="text-input" oninput="this.editor.update()"
               rows="6" cols="60">Type **Markdown** here.</textarea>
     <div id="preview"> </div>
     <script src="javascripts/markdown.js"></script>
     <script>
+	<![CDATA[
       function Editor(input, preview) {
         this.update = function () {
           preview.innerHTML = markdown.toHTML(input.value);
@@ -30,6 +40,7 @@
       }
       var $ = function (id) { return document.getElementById(id); };
       new Editor($("text-input"), $("preview"));
+	  
 	  var newURL = window.location.protocol + "//" + window.location.host + "/" + window.location.pathname;
 	  console.log("newURL: "+newURL);
 	  var pathArray = window.location.pathname.split( '/' );
@@ -42,6 +53,7 @@
 		  newPathname += pathArray[i];
 		  console.log("newPathname: "+newPathname);
 		}
+		]]>
     </script>
   </body>
 </html>
