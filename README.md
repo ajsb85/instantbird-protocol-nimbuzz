@@ -22,12 +22,6 @@ This release only support the instant message with the xmpp protocol.<br>
 Soon the another features. For more information see: http://developer.nimbuzz.com/<br>
 Please check the account window to accept the auto-certification from Nimbuzz.
 
-###Donate Bitcoin:
-      
-      13r3PLwzKezKAugEBhgvjQznUo3PXQedqj
-      
-_Thank you very much for your generosity! -alexandersalas_
-
 ###Preview Screenshots
 
 ![Nimbuzz](https://raw.github.com/alexsalas/instantbird-protocol-nimbuzz/master/aio/preview-1.png "Nimbuzz")<br>
@@ -57,6 +51,8 @@ http://www.nimbuzz.com/en/legal/terms-use/
 More information here:
 http://www.nimbuzz.com/en/legal/privacy-statement/
 
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/alexsalas/instantbird-protocol-nimbuzz/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
+###Donate Bitcoin:
+      
+      1MTd8fa6QrZLSST2uEiuwhLJNjeiGoUe5s
+      
+_Thank you very much for your generosity! -alexandersalas_
