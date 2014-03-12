@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" [
+<!ENTITY % brandDTD SYSTEM "chrome://branding/locale/brand.dtd" >
+%brandDTD;
+<!ENTITY % aboutDTD SYSTEM "chrome://global/locale/about.dtd" >
+%aboutDTD;
+<!ENTITY % globalDTD SYSTEM "chrome://global/locale/global.dtd">
+%globalDTD;
+]>
+
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <body>
+    <textarea id="text-input" oninput="this.editor.update()"
+              rows="6" cols="60">Type **Markdown** here.</textarea>
+    <div id="preview"> </div>
+    <script src="javascripts/markdown.js"></script>
+    <script>
+      function Editor(input, preview) {
+        this.update = function () {
+          preview.innerHTML = markdown.toHTML(input.value);
+        };
+        input.editor = this;
+        this.update();
+      }
+      var $ = function (id) { return document.getElementById(id); };
+      new Editor($("text-input"), $("preview"));
+	  var newURL = window.location.protocol + "//" + window.location.host + "/" + window.location.pathname;
+	  console.log("newURL: "+newURL);
+	  var pathArray = window.location.pathname.split( '/' );
+	  console.log("pathArray: "+pathArray);
+	  var secondLevelLocation = pathArray[0];
+	  console.log("secondLevelLocation: "+secondLevelLocation);
+		var newPathname = "";
+		for ( i = 0; i < pathArray.length; i++ ) {
+		  newPathname += "/";
+		  newPathname += pathArray[i];
+		  console.log("newPathname: "+newPathname);
+		}
+    </script>
+  </body>
+</html>
