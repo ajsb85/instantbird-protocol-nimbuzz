@@ -1,5 +1,7 @@
-component {9e6365d0-a957-11e3-a5e2-0800200c9a66} components/nbOverrideProtocols.js
+component {9e6365d0-a957-11e3-a5e2-0800200c9a66} components/nimbuzz.js
 contract @instantbird.org/purple/nimbuzz;1 {9e6365d0-a957-11e3-a5e2-0800200c9a66}
 category im-protocol-plugin prpl-nimbuzz @instantbird.org/purple/nimbuzz;1
 
 skin prpl-nimbuzz     classic/1.0 chrome/skin/
+
+locale prpl-nimbuzz en-US chrome/locale/en-US/
